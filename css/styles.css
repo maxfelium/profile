@@ -113,3 +113,9 @@ button:hover {
   display: block;
   margin: 0 auto;
 }
+
+.intro-paragraph {
+  font-family: "baskervville", sans-serif;
+  color: #707070;
+  font-size: 21px;
+}
