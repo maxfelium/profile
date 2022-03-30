@@ -105,17 +105,19 @@ button:hover {
 }
 
 .img-with-text {
-  text-align: justify;
+  text-align: center;
+  font-family: "Lato", sans-serif;
   width: 6cm;
   position: relative;
   left: 150px;
-  bottom: -80px;
+  bottom: -60px;
   background-color: rgb(255, 255, 254);
 }
 
 .img-with-text img {
   display: block;
   margin: 0 auto;
+  padding-bottom: 0.5cm;
 }
 
 .intro-paragraph {
