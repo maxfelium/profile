@@ -106,7 +106,11 @@ button:hover {
 
 .img-with-text {
   text-align: justify;
-  width: 5cm;
+  width: 6cm;
+  position: relative;
+  left: 150px;
+  bottom: -80px;
+  background-color: rgb(255, 255, 254);
 }
 
 .img-with-text img {
