@@ -135,6 +135,7 @@ button:hover {
   grid-template-columns: repeat(3, 1fr);
   gap: 130px;
   font-family: "baskervville", sans-serif;
+  color: #707070;
 }
 
 .wtennis-card {
@@ -145,4 +146,9 @@ button:hover {
 
 .womens-tennis-img {
   padding-bottom: 0.5cm;
+}
+
+.wtennis-card-heading {
+  padding-bottom: 0.3cm;
+  text-align: center;
 }
