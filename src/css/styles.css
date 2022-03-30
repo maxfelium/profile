@@ -60,3 +60,8 @@ button {
 button:hover {
   background-color: rgb(209, 209, 209);
 }
+
+.portrait {
+  height: 15.45cm;
+  width: 20cm;
+}
