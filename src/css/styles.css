@@ -103,3 +103,9 @@ body {
   font-size: 27px;
   color: #707070;
 }
+
+.intro-paragraph {
+  font-family: "baskervville", sans-serif;
+
+  margin-bottom: 10px;
+}
