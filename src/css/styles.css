@@ -64,4 +64,6 @@ button:hover {
 .portrait {
   height: 15.45cm;
   width: 20cm;
+  margin-top: auto;
+  margin-left: auto;
 }
