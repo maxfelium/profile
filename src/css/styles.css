@@ -67,3 +67,25 @@ button:hover {
   margin-top: auto;
   margin-left: 12cm;
 }
+
+body {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+.content-wrapper {
+  width: 80%;
+}
+
+.text-wrapper {
+  width: 100%;
+  position: relative;
+  margin-top: -40%;
+}
+
+.text-wrapper h1 {
+  text-align: left;
+  margin-left: 5cm;
+}
