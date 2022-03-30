@@ -25,4 +25,6 @@ header {
 
 .logo {
   cursor: pointer;
+  height: 3cm;
+  width: 3cm;
 }
