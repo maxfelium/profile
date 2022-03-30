@@ -129,6 +129,8 @@ button:hover {
 .cards {
   margin: 0 auto;
   max-width: 1135px;
+  position: relative;
+  bottom: -220px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 130px;
