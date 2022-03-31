@@ -228,7 +228,7 @@ footer {
 
 .footer-pagetwo {
   position: relative;
-  bottom: -400px;
+  bottom: -1000px;
 }
 
 .content-wrapper-pagetwo-coverimage {
@@ -263,4 +263,6 @@ footer {
 
 .kalbas-article {
   padding-top: 2cm;
+  font-family: "baskervville", sans-serif;
+  color: #707070;
 }
