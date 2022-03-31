@@ -222,7 +222,7 @@ footer {
   font-family: "baskervville", sans-serif;
   color: #707070;
   font-size: 50px;
-  padding-bottom: 1.5cm;
+  padding-bottom: 0.8cm;
   padding-left: 4.5cm;
 }
 
@@ -232,8 +232,8 @@ footer {
 }
 
 .content-wrapper-pagetwo-coverimage {
-  height: 15.53cm;
-  width: 23cm;
+  height: 17.53cm;
+  width: 30cm;
   margin-top: auto;
-  margin-left: 12cm;
+  margin-left: 4.1cm;
 }
