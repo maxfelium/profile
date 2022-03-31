@@ -228,7 +228,7 @@ footer {
 
 .footer-pagetwo {
   position: relative;
-  bottom: -1000px;
+  bottom: -2000px;
 }
 
 .content-wrapper-pagetwo-coverimage {
@@ -269,4 +269,8 @@ footer {
 
 .headline {
   font-size: 40px;
+}
+
+.article {
+  font-size: 21px;
 }
