@@ -186,3 +186,10 @@ button:hover {
   padding-bottom: 0.3cm;
   text-align: center;
 }
+
+.nav-links {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #000000;
+}
