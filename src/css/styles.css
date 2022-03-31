@@ -250,5 +250,13 @@ footer {
   font-family: "baskervville", sans-serif;
   color: #707070;
   padding-top: 0.2cm;
-  font-size: 19px;
+  font-size: 50px;
+}
+
+.quote {
+  background-color: #d1cdc8;
+  padding-left: 4.1cm;
+  padding-top: 2cm;
+  padding-bottom: 2cm;
+  padding-right: 4.1cm;
 }
