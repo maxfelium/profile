@@ -244,3 +244,11 @@ footer {
   padding-top: 0.2cm;
   font-size: 19px;
 }
+
+.quote-section {
+  background-color: #d1cdc8;
+  font-family: "baskervville", sans-serif;
+  color: #707070;
+  padding-top: 0.2cm;
+  font-size: 19px;
+}
