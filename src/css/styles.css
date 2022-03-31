@@ -286,13 +286,17 @@ footer {
 }
 
 .content-wrapper-pagethree-coverimage {
-  padding-left: 19cm;
+  padding-left: 21cm;
   padding-right: 4.1cm;
+  padding-top: 1cm;
 }
 
 .intro-men {
-  padding-left: 4.1cm;
-  right: 10cm;
+  padding-left: 24.1cm;
+  right: 20cm;
   position: relative;
-  bottom: 220px;
+  bottom: 330px;
+  font-family: "baskervville", sans-serif;
+  color: #707070;
+  font-size: 21px;
 }
