@@ -193,3 +193,10 @@ button:hover {
   font-size: 15px;
   color: #000000;
 }
+
+footer {
+  background-color: #afafaf;
+  padding: 10px 20px;
+  position: relative;
+  bottom: -220px;
+}
