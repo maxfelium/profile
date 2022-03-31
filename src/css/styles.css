@@ -237,3 +237,10 @@ footer {
   margin-top: auto;
   margin-left: 4.1cm;
 }
+
+.text-wrapper-wtennisteam {
+  font-family: "lato", sans-serif;
+  color: #707070;
+  padding-top: 0.2cm;
+  font-size: 19px;
+}
