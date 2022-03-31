@@ -169,3 +169,19 @@ button:hover {
   padding-bottom: 0.3cm;
   text-align: center;
 }
+
+.faq-card {
+  border-style: solid;
+  border-width: 0.05cm;
+  padding: 0.5cm;
+}
+
+.newspapers-img {
+  padding-bottom: 0.5cm;
+  border-radius: 40px;
+}
+
+.faq-card-heading {
+  padding-bottom: 0.3cm;
+  text-align: center;
+}
