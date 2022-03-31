@@ -195,8 +195,13 @@ button:hover {
 }
 
 footer {
-  background-color: #afafaf;
+  background-color: #cccccc;
   padding: 10px 20px;
   position: relative;
   bottom: -220px;
+}
+
+.footer-text {
+  background-color: #cccccc;
+  text-align: center;
 }
