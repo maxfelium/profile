@@ -124,6 +124,7 @@ button:hover {
   font-family: "baskervville", sans-serif;
   color: #707070;
   font-size: 21px;
+  line-height: 37px;
 }
 
 .cards {
@@ -288,15 +289,16 @@ footer {
 .content-wrapper-pagethree-coverimage {
   padding-left: 21cm;
   padding-right: 4.1cm;
-  padding-top: 1cm;
+  padding-top: 2cm;
 }
 
 .intro-men {
   padding-left: 24.1cm;
   right: 20cm;
   position: relative;
-  bottom: 330px;
+  bottom: 410px;
   font-family: "baskervville", sans-serif;
   color: #707070;
   font-size: 21px;
+  line-height: 47px;
 }
