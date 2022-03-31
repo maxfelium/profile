@@ -225,3 +225,9 @@ footer {
   padding-bottom: 3cm;
   padding-left: 4.5cm;
 }
+
+.footer-div-pagetwo {
+  position: relative;
+  bottom: -400px;
+  background-color: #cccccc;
+}
