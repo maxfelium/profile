@@ -217,3 +217,9 @@ footer {
 .footer-div {
   background-color: #cccccc;
 }
+
+.wtennis--page-title {
+  font-family: "baskervville", sans-serif;
+  color: #707070;
+  padding-bottom: 3cm;
+}
