@@ -289,3 +289,10 @@ footer {
   padding-left: 19cm;
   padding-right: 4.1cm;
 }
+
+.intro-men {
+  padding-left: 4.1cm;
+  right: 10cm;
+  position: relative;
+  bottom: 220px;
+}
