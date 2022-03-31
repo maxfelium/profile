@@ -266,3 +266,7 @@ footer {
   font-family: "baskervville", sans-serif;
   color: #707070;
 }
+
+.headline {
+  font-size: 40px;
+}
