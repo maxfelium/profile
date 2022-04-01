@@ -335,7 +335,8 @@ footer {
   font-family: "baskervville", sans-serif;
   color: #707070;
   padding-left: 4.1cm;
-  padding-right: 4.1;
+  padding-right: 4.1cm;
   position: relative;
   bottom: 250px;
+  line-height: 48px;
 }
