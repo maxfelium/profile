@@ -340,3 +340,7 @@ footer {
   bottom: 250px;
   line-height: 48px;
 }
+
+@media (min-width: 900px);
+ {
+}
