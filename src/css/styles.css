@@ -341,12 +341,53 @@ footer {
   line-height: 48px;
 }
 
-@media (min-width: 900px) {
-}
-
 #responsive-logo {
   display: hidden;
   width: 48px;
   height: 48px;
   background-size: 37px;
+}
+
+@media screen and (max-width: 100000px) {
+  * {
+    margin: 0cm;
+  }
+}
+
+#responsive-logo {
+  display: inline-block;
+  background: #ffffff;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+nav,
+ul,
+nav:active ul {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  padding: 10px;
+  background: #191929;
+  right: 25px;
+  top: 30px;
+  border: 2px solid #f0f0f0;
+  border-radius: 8px 8px 8px 8px;
+  width: 43%;
+  opacity: 0.92;
+}
+
+nav:hover ul {
+  display: block;
+}
+
+nav li {
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+nav li a {
+  text-align: center;
+  display: inline-block;
 }
