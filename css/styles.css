@@ -22,14 +22,27 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 10%;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(1rem);
 }
 
 .logo {
+  max-width: 4rem;
   cursor: pointer;
   margin-right: auto;
-  height: 2.1cm;
-  width: 2.1cm;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .nav_links {
@@ -38,7 +51,6 @@ header {
 
 .nav_links li {
   display: inline-block;
-  padding: 0px 20px;
 }
 
 .nav_links li a {
@@ -51,7 +63,6 @@ header {
 
 button {
   margin-left: 40px;
-  padding: 9px 25px;
   background-color: rgb(255, 255, 255);
   border: none;
   border-radius: 50px;
@@ -64,10 +75,7 @@ button:hover {
 }
 
 .portrait {
-  height: 15.53cm;
-  width: 23cm;
   margin-top: auto;
-  margin-left: 12cm;
 }
 
 .body {
@@ -77,27 +85,25 @@ button:hover {
   background-color: rgb(255, 255, 255);
 }
 
-.content-wrapper {
-  width: 80%;
+.hero {
+}
+
+hr {
+  max-width: 50%;
+  margin: 0.75rem auto;
 }
 
 .text-wrapper {
-  width: 50%;
-  position: relative;
-  margin-top: -40%;
+  padding: 1rem;
 }
 
 .text-wrapper h1 {
-  text-align: left;
-  margin-left: 6cm;
   font-family: "baskervville", sans-serif;
   font-size: 70px;
   color: #707070;
 }
 
 .text-wrapper h2 {
-  text-align: left;
-  margin-left: 7.2cm;
   font-family: "Lato", sans-serif;
   font-weight: 500;
   font-size: 27px;
@@ -105,19 +111,17 @@ button:hover {
 }
 
 .img-with-text {
+  margin: 1rem 0;
+  display: grid;
   text-align: center;
   font-family: "Lato", sans-serif;
-  width: 6cm;
-  position: relative;
-  left: 150px;
-  bottom: -60px;
   background-color: rgb(255, 255, 254);
 }
 
 .img-with-text img {
   display: block;
   margin: 0 auto;
-  padding-bottom: 0cm;
+  padding: 0.5rem;
 }
 
 .intro-paragraph {
@@ -127,65 +131,30 @@ button:hover {
   line-height: 37px;
 }
 
+.about {
+  margin: 2rem 0;
+  display: grid;
+  gap: 1rem;
+}
+
 .cards {
   margin: 0 auto;
   max-width: 1135px;
-  position: relative;
-  bottom: -220px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 130px;
+  gap: 2rem;
   font-family: "baskervville", sans-serif;
   color: #707070;
-  padding-bottom: 3cm;
 }
 
-.wtennis-card {
-  border-style: solid;
-  border-width: 0.05cm;
-  padding: 0.5cm;
+.card {
+  box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
-.womens-tennis-img {
-  padding-bottom: 0.5cm;
-  border-radius: 40px;
-}
-
-.wtennis-card-heading {
-  padding-bottom: 0.3cm;
-  text-align: center;
-}
-
-.mtennis-card {
-  border-style: solid;
-  border-width: 0.05cm;
-  padding: 0.5cm;
-}
-
-.Mens-tennis-img {
-  padding-bottom: 0.5cm;
-  border-radius: 40px;
-}
-
-.mtennis-card-heading {
-  padding-bottom: 0.3cm;
-  text-align: center;
-}
-
-.faq-card {
-  border-style: solid;
-  border-width: 0.05cm;
-  padding: 0.5cm;
-}
-
-.newspapers-img {
-  padding-bottom: 0.5cm;
-  border-radius: 40px;
-}
-
-.faq-card-heading {
-  padding-bottom: 0.3cm;
-  text-align: center;
+.card img {
+  border-radius: 1rem;
+  margin-bottom: 1rem;
 }
 
 .nav-links {
@@ -196,12 +165,11 @@ button:hover {
 }
 
 footer {
+  padding: 1rem;
   background-color: #cccccc;
-  padding: 10px 20px;
-  position: relative;
-  bottom: -220px;
   font-family: "Lato", sans-serif;
   font-size: small;
+  text-align: center;
 }
 
 .footer-text {
@@ -212,7 +180,6 @@ footer {
 .dth-profile {
   background-color: #cccccc;
   text-align: center;
-  padding-left: 16.95cm;
 }
 
 .footer-div {
@@ -223,26 +190,23 @@ footer {
   font-family: "baskervville", sans-serif;
   color: #707070;
   font-size: 50px;
-  padding-bottom: 0.8cm;
-  padding-left: 4.5cm;
+  margin-left: 20%;
+  font-weight: 600;
+  background-color: rgb(255, 255, 254);
 }
 
 .footer-pagetwo {
-  position: relative;
-  bottom: -900px;
 }
 
-.content-wrapper-pagetwo-coverimage {
-  height: 17.53cm;
-  width: 30cm;
+.hero-pagetwo-coverimage {
   margin-top: auto;
-  margin-left: 4.1cm;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .text-wrapper-wtennisteam {
   font-family: "lato", sans-serif;
   color: #707070;
-  padding-top: 0.2cm;
   font-size: 19px;
 }
 
@@ -250,20 +214,14 @@ footer {
   background-color: #d1cdc8;
   font-family: "baskervville", sans-serif;
   color: #707070;
-  padding-top: 0.2cm;
   font-size: 50px;
 }
 
 .quote {
   background-color: #d1cdc8;
-  padding-left: 4.1cm;
-  padding-top: 2cm;
-  padding-bottom: 2cm;
-  padding-right: 4.1cm;
 }
 
 .kalbas-article {
-  padding-top: 2cm;
   font-family: "baskervville", sans-serif;
   color: #707070;
 }
@@ -271,7 +229,6 @@ footer {
 .headline {
   font-size: 40px;
   line-height: 70px;
-  padding-left: 4.1cm;
 }
 
 .article {
@@ -280,23 +237,12 @@ footer {
 }
 
 .tennisball-img {
-  padding-top: 23cm;
-  padding-left: 4.1cm;
-  width: 14.7cm;
-  height: 40cm;
 }
 
-.content-wrapper-pagethree-coverimage {
-  padding-left: 21cm;
-  padding-right: 4.1cm;
-  padding-top: 2cm;
+.hero-pagethree-coverimage {
 }
 
 .intro-men {
-  padding-left: 24.1cm;
-  right: 20cm;
-  position: relative;
-  bottom: 410px;
   font-family: "baskervville", sans-serif;
   color: #707070;
   font-size: 21px;
@@ -304,27 +250,18 @@ footer {
 }
 
 .videotennis {
-  padding-left: 4.1cm;
-  padding-right: 4.1cm;
-  position: relative;
-  bottom: 370px;
   font-family: "lato", sans-serif;
   color: #707070;
   font-size: 19px;
 }
 
 .videocaption {
-  padding-top: 0.25cm;
 }
 
 .qanda-page-title {
   font-family: "baskervville", sans-serif;
   color: #707070;
   font-size: 50px;
-  position: relative;
-  bottom: 280px;
-  padding-bottom: 0.8cm;
-  padding-left: 4cm;
 }
 
 .questions {
@@ -334,10 +271,6 @@ footer {
 .qanda-div {
   font-family: "baskervville", sans-serif;
   color: #707070;
-  padding-left: 4.1cm;
-  padding-right: 4.1cm;
-  position: relative;
-  bottom: 250px;
   line-height: 48px;
 }
 
@@ -348,46 +281,72 @@ footer {
   background-size: 37px;
 }
 
-@media screen and (max-width: 100000px) {
+@media screen and (max-width: 47.9375rem) {
   * {
     margin: 0cm;
   }
+
+  .portrait {
+    aspect-ratio: 3 / 4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .img-with-text {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  #responsive-logo {
+    display: inline-block;
+    background: #ffffff;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+
+  nav,
+  ul,
+  nav:active ul {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    padding: 10px;
+    background: #191929;
+    right: 25px;
+    top: 30px;
+    border: 2px solid #f0f0f0;
+    border-radius: 8px 8px 8px 8px;
+    opacity: 0.92;
+  }
+
+  nav:hover ul {
+    display: block;
+  }
+
+  nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+  nav li a {
+    text-align: center;
+    display: inline-block;
+  }
 }
 
-#responsive-logo {
-  display: inline-block;
-  background: #ffffff;
-  border: 1px solid grey;
-  border-radius: 5px;
-}
-
-nav,
-ul,
-nav:active ul {
-  display: none;
-  position: absolute;
-  z-index: 1000;
-  padding: 10px;
-  background: #191929;
-  right: 25px;
-  top: 30px;
-  border: 2px solid #f0f0f0;
-  border-radius: 8px 8px 8px 8px;
-  width: 43%;
-  opacity: 0.92;
-}
-
-nav:hover ul {
-  display: block;
-}
-
-nav li {
-  text-align: center;
-  width: 100%;
-  padding: 10px 0;
-}
-
-nav li a {
-  text-align: center;
-  display: inline-block;
+@media (min-width: 48rem) {
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .about {
+    grid-template-columns: 2fr 1fr;
+    align-items: flex-start;
+  }
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
