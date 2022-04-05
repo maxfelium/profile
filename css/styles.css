@@ -362,8 +362,8 @@ footer {
     display: inline-block;
   }
   .wtennis-page-title {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   .hero-pagetwo-coverimage {
     margin-left: 0;
@@ -374,23 +374,36 @@ footer {
     font-size: smaller;
   }
   .kalbas-article {
-    padding-top: 6rem;
-    font-family: "baskervville", sans-serif;
-    color: #707070;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .hero-pagethree-coverimage {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 1 rem;
+  }
+
+  .intro-men {
     margin-left: 3%;
     margin-right: 3%;
   }
 
-  .headline {
-    font-size: 40px;
-    line-height: 70px;
-    padding-bottom: 3rem;
+  .videotennis {
+    margin-left: 0%;
+    margin-right: 0%;
   }
 
-  .article {
-    font-size: 21px;
-    line-height: 47px;
-    padding-bottom: 3rem;
+  .qanda-page-title {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 2rem;
+  }
+  .qanda-div {
+    font-family: "baskervville", sans-serif;
+    color: #707070;
+    line-height: 48px;
+    margin-left: 3%;
+    margin-right: 3%;
   }
 }
 
