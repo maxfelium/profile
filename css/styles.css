@@ -208,6 +208,7 @@ footer {
   font-family: "lato", sans-serif;
   color: #707070;
   font-size: 19px;
+  padding-bottom: 3rem;
 }
 
 .quote-section {
@@ -215,6 +216,11 @@ footer {
   font-family: "baskervville", sans-serif;
   color: #707070;
   font-size: 50px;
+}
+
+.background {
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .quote {
