@@ -404,6 +404,16 @@ footer {
     margin-left: 3%;
     margin-right: 3%;
   }
+  .navbarphone {
+    display: table-column-group;
+  }
+  .menu {
+    margin: 0;
+  }
+
+  button {
+    padding-right: 20%;
+  }
 }
 
 @media (min-width: 48rem) {
@@ -418,5 +428,8 @@ footer {
   }
   .cards {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .navbarphone {
+    display: none;
   }
 }
