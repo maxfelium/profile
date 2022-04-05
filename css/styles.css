@@ -338,19 +338,17 @@ footer {
   ul,
   nav:active ul {
     display: none;
-    position: absolute;
-    z-index: 1000;
-    padding: 10px;
-    background: #191929;
-    right: 25px;
-    top: 30px;
-    border: 2px solid #f0f0f0;
-    border-radius: 8px 8px 8px 8px;
-    opacity: 0.92;
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
 
   nav:hover ul {
     display: block;
+    float: left;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
   }
 
   nav li {
