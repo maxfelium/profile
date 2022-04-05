@@ -190,6 +190,9 @@ footer {
   font-family: "baskervville", sans-serif;
   color: #707070;
   font-size: 50px;
+  margin-left: 20%;
+  font-weight: 600;
+  background-color: rgb(255, 255, 254);
 }
 
 .footer-pagetwo {
@@ -197,6 +200,8 @@ footer {
 
 .hero-pagetwo-coverimage {
   margin-top: auto;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .text-wrapper-wtennisteam {
