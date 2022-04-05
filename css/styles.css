@@ -372,6 +372,26 @@ footer {
   .quote {
     background-color: #d1cdc8;
     font-size: smaller;
+  }
+  .kalbas-article {
+    padding-top: 6rem;
+    font-family: "baskervville", sans-serif;
+    color: #707070;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .headline {
+    font-size: 40px;
+    line-height: 70px;
+    padding-bottom: 3rem;
+  }
+
+  .article {
+    font-size: 21px;
+    line-height: 47px;
+    padding-bottom: 3rem;
+  }
 }
 
 @media (min-width: 48rem) {
