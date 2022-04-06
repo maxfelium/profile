@@ -337,7 +337,6 @@ footer {
   nav,
   ul,
   nav:active ul {
-    display: none;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -379,7 +378,7 @@ footer {
   .hero-pagethree-coverimage {
     margin-left: 0%;
     margin-right: 0%;
-    padding-top: 1 rem;
+    padding-top: 1rem;
   }
 
   .intro-men {
@@ -404,6 +403,29 @@ footer {
     margin-left: 3%;
     margin-right: 3%;
   }
+
+  body {
+    margin: 0;
+    overflow: hidden;
+  }
+
+  #menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 1rem;
+    list-style-type: none;
+    transform: translateX(100%);
+    transition: all 300ms;
+    min-height: 100vh;
+  }
+
+  #menu:target {
+    transform: translateX(0);
+  }
 }
 
 @media (min-width: 48rem) {
@@ -418,8 +440,5 @@ footer {
   }
   .cards {
     grid-template-columns: repeat(3, 1fr);
-  }
-  .navbarphone {
-    display: none;
   }
 }
