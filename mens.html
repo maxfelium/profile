@@ -12,17 +12,26 @@
   </head>
   <body>
     <header>
-      <img class="logo" src="images/logo.png" alt="logo" />
+      <a class="logo" href="./index.html">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+
       <nav>
-        <ul class="nav_links">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./womens.html">Women's Tennis</a></li>
-          <li><a href="#">Men's Tennis</a></li>
-        </ul>
+        <a href="#" id="responsive-logo "></a>
+        <div class="nav_links">
+          <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li>
+              <a class="wtennisheader" href="./womens.html">Women's Tennis</a>
+            </li>
+            <li><a href="./mens.html">Men's Tennis</a></li>
+          </ul>
+        </div>
       </nav>
-      <a class="cta" href="mailto:maxfeliu@ad.unc.edu"
-        ><button>Contact</button></a
-      >
+
+      <a class="cta menu-button" href="#menu">Menu</a>
+
+      <a class="cta" href="mailto:maxfeliu@ad.unc.edu">Contact</a>
     </header>
 
     <h1 class="wtennis-page-title">Men's Tennis</h1>
